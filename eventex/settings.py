@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 #import os
 #BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 from unipath import Path
-
+BASE_DIR = Path(__file__).parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -59,7 +60,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME':BASE_DIR.child('db.sqlite3'),
+        'NAME': BASE_DIR.child('db.sqlite3'),
     }
 }
 
