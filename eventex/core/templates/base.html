@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+{%  load staticfiles %}
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Eventex</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="#">Eventex</a>
+			</div>
+			<ul id="navigation">
+				<h3>Bem Vindo! Em breve novos eventos para você!</h3>
+
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<div id="adbox">
+			<div class="clearfix">
+				<img src="{% static 'images/earth.jpg' %}" alt="Img" height="342" width="400">
+				{% block content %}
+				{% endblock content %}
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="clearfix">
+			<div id="connect">
+				<a href="{ home }" target="_blank" class="facebook"></a><a href="#" target="_blank" class="googleplus"></a><a href="#" target="_blank" class="twitter"></a><a href="#" target="_blank" class="tumbler"></a>
+			</div>
+			<p>
+				© 2013 Eventex. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
