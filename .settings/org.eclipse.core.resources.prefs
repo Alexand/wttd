@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 encoding//eventex/core/tests.py=utf-8
 encoding//eventex/core/views.py=utf-8
 encoding//eventex/subscriptions/forms.py=utf-8
+encoding//eventex/subscriptions/models.py=utf-8
 encoding//eventex/subscriptions/tests/test_forms.py=utf-8
 encoding//eventex/subscriptions/tests/test_models.py=utf-8
 encoding//eventex/subscriptions/tests/test_views_subscribe.py=utf-8
