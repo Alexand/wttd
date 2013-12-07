@@ -26,6 +26,8 @@ DEBUG = config('DEBUG', False, cast=bool)
 
 TEMPLATE_DEBUG = DEBUG
 
+TEMPLATE_DIRS = [BASE_DIR.parent + '/templates']
+
 ALLOWED_HOSTS = ['.localhost','127.0.0.1','.herokuapp.com']
 
 
