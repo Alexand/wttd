@@ -12,6 +12,6 @@ def subscribe(request):
             obj.save()
             return HttpResponseRedirect('/inscricao/%d/' % obj.pk)
         else:
-            return render(request, 'subscriptions/subscription_form.html', {'form':form}) 
+            return render(request, 'subscriptions/subscription_form.html', {'form':form})
     else:
         return render(request, 'subscriptions/subscription_form.html', {'form':SubscriptionForm()})

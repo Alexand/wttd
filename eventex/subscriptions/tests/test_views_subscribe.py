@@ -45,8 +45,8 @@ class SubscribeTeste(TestCase):
         
 class SubscribePostTest(TestCase):
     def setUp(self):
-        data = dict(name='Henrique Bastos', cpf='12345678901',
-                    email='henrique@bastos.net', phone='21-2222222')
+        data = dict(name='Joao', cpf='123456',
+                    email='teste@gmail.com', phone='123')
         self.resp = self.client.post('/inscricao/', data)
         
     def test_post(self):
@@ -59,7 +59,7 @@ class SubscribePostTest(TestCase):
         
 class SubscribeInvalidPostTest(TestCase):
     def setUp(self):
-        data = dict(name='Henrique Bastos', cpf='00000000012',
+        data = dict(name='Henrique Bastos', cpf='000000000012',
                     email='henrique@bastos.net', phone='21-1111111')
         self.resp = self.client.post('/inscricao/', data)
         
