@@ -1,5 +1,7 @@
 eclipse.preferences.version=1
-encoding//eventex/core/tests.py=utf-8
+encoding//eventex/core/models.py=utf-8
+encoding//eventex/core/tests/test_models.py=utf-8
+encoding//eventex/core/tests/test_views_speaker_detail.py=utf-8
 encoding//eventex/core/urls.py=utf-8
 encoding//eventex/core/views.py=utf-8
 encoding//eventex/settings.py=utf-8
