@@ -1,10 +1,14 @@
 eclipse.preferences.version=1
 encoding//eventex/core/managers.py=utf-8
 encoding//eventex/core/models.py=utf-8
+encoding//eventex/core/templatetags/youtube.py=utf-8
 encoding//eventex/core/tests/test_managers.py=utf-8
 encoding//eventex/core/tests/test_models.py=utf-8
+encoding//eventex/core/tests/test_models_media.py=utf-8
 encoding//eventex/core/tests/test_models_talk.py=utf-8
+encoding//eventex/core/tests/test_templatetags.py=utf-8
 encoding//eventex/core/tests/test_views_speaker_detail.py=utf-8
+encoding//eventex/core/tests/test_views_talk_detail.py=utf-8
 encoding//eventex/core/tests/test_views_talk_list.py=utf-8
 encoding//eventex/core/urls.py=utf-8
 encoding//eventex/core/views.py=utf-8
